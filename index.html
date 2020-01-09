@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Burger</title>
 </head>
 
@@ -80,6 +81,130 @@
             </div>
         </div>
     </header>
+
+
+<!-----------section type de burger------------------>
+<section>
+    <div class="container-fluid type-burger pb-5">
+        <div class="container">
+            <div class=" col-12 d-flex justify-content-center text-light text-center pt-5 pb-5 ">
+                <h2>TYPE DE BURGERS</h2>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide pb-sm-5 d-none d-sd-flex d-md-flex d-lg-flex" data-ride="carousel">
+                <ol class="carousel-indicators show">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex justify-content-around ">
+                            <div
+                                class="col-sm-12 col-md-12 col-lg-5 text-light d-sm-flex d-md-flex d-lg-flex flex-column justify-content-center ">
+                                <h3 class="">Burger Vegan</h3>
+                                <p class="d-none d-sm-flex d-md-flex d-lg-flex">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <img src="images/01-burger-vegetarien-aux-courgettes_0 (2).jpg"
+                                class=" img rounded-circle epais" alt="..." width="350" height="350">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex justify-content-around">
+                            <div
+                                class="col-sm-12 col-md-12 col-lg-5 text-light d-sm-flex d-md-flex d-lg-flex flex-column justify-content-center">
+                                <h3 class="">Burger Montagnard</h3>
+                                <p class="d-none d-sm-flex d-md-flex d-lg-flex">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <img src="images/burger-montagnard.jpg" class=" rounded-circle epais" alt="..."
+                                width="350" height="350">
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row d-flex justify-content-around">
+                            <div
+                                class=" col-12  col-sm-12 offset-sm-0 col-md-12 col-lg-5 text-light d-sm-flex d-md-flex d-lg-flex flex-column justify-content-center">
+                                <h3 class="">Burger Ducky</h3>
+                                <p class="d-none d-sm-flex d-md-flex d-lg-flex">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <img src="images/Burger-ducky.jpg" class=" rounded-circle epais" alt="..." width="350"
+                                height="350">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="smart d-sd-none d-md-none d-lg-none">
+                <ul class="ch-grid">
+                    <li>
+                        <div class="ch-item">
+                            <div class="ch-info">
+                                <div class="ch-info-front ch-img-1"></div>
+                                <div class="ch-info-back">
+                                    <h3>Burger Vegan</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="ch-grid">
+                    <li>
+                        <div class="ch-item">
+                            <div class="ch-info">
+                                <div class="ch-info-front ch-img-2"></div>
+                                <div class="ch-info-back">
+                                    <h3>Burger Montagnard</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="ch-grid">
+                    <li>
+                        <div class="ch-item">
+                            <div class="ch-info">
+                                <div class="ch-info-front ch-img-3"></div>
+                                <div class="ch-info-back">
+                                    <h3>Burger Ducky</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
 
 
 
@@ -706,7 +831,7 @@
         
         <div class="row justify-content-center">
             <div class="section-tours-title">
-                <h2 data-text="la Cart " class=" my-5 text-center">
+                <h2 data-text="la Carte " class=" my-5 text-center">
                    la Carte 
                 </h2>
             </div>
@@ -1208,8 +1333,11 @@
             $('#Reserve8').click(function(){
               $('#formModal').modal('toggle');
             });
+ 
+        })
 
-           
+        $('.carousel').carousel({
+            interval: 7000
         })
         </script>
 
