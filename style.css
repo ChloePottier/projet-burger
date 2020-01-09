@@ -5,7 +5,7 @@
 
 
 @media (min-width: 320px)  {
-   .epais{width: 250px;height: 250px;} 
+    
    ol.show{margin-bottom: -2rem;}
    
    @-webkit-keyframes flip-vertical-right {
