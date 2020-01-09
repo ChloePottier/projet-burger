@@ -35,7 +35,7 @@
     }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    .btn-cercle{width: 10%;}.nav-item {font-size: 0.9375rem; font-weight: bold;}.h1-header {font-size: 1.5625rem; font-weight: bold;}.p-header {font-size: 1.3125rem;}.h1-header {font-size: 1.75rem; font-weight: bold;}.part-text{padding-top: 130px; padding-bottom: 70px;}.p-header {width: 71%;}
+    .btn-cercle{width: 10%;}.nav-item {font-size: 0.9375rem; font-weight: bold; width: 15%;}.h1-header {font-size: 1.5625rem; font-weight: bold;}.p-header {font-size: 1.3125rem;}.h1-header {font-size: 1.75rem; font-weight: bold;}.part-text{padding-top: 130px; padding-bottom: 70px;}.p-header {width: 71%;}
     }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
