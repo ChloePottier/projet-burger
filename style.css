@@ -150,7 +150,7 @@ body{margin: 0; padding: 0; font-family: Rockwell;letter-spacing: 1px; font-size
 }
 .card__details ul   li {
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.8125rem;
     padding: .6rem;  
 }
 .card__details ul  li:not(:last-child) {
@@ -169,6 +169,7 @@ body{margin: 0; padding: 0; font-family: Rockwell;letter-spacing: 1px; font-size
 .card__price-value {
     font-size: 6rem;
     font-weight: 100;
+
 }
 
 .btn:link,.btn:visited {
@@ -183,6 +184,7 @@ body{margin: 0; padding: 0; font-family: Rockwell;letter-spacing: 1px; font-size
         font-size:1rem;
         border: none;
         cursor: pointer;
+        
     }
 
     .btn:hover{
@@ -203,7 +205,8 @@ body{margin: 0; padding: 0; font-family: Rockwell;letter-spacing: 1px; font-size
     
     .btn--white {
         background-color: #fff;
-        color: #777;   
+        color: #777;  
+        margin-left: 2.4375rem; 
     }
 
     .btn--white ::after {
@@ -310,7 +313,11 @@ only screen and (hover: none) {
 
 @media (max-width: 575.98px) { 
     .btn-cercle{width: 13%;}.nav-item {font-size: 0.9375rem; font-weight: bold;}.h1-header {font-size: 1.5625rem; font-weight: bold;}.p-header {font-size: 1rem;}.part-text{padding-top: 1.75rem; padding-bottom: 1.75rem;}.p-header {width: 53%;}
+    .card__details ul   li {
+        font-size: 10px;
+
     }
+}
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .btn-cercle{width: 10%;}.nav-item {font-size: 0.9375rem; font-weight: bold; width: 15%;}.h1-header {font-size: 1.5625rem; font-weight: bold;}.p-header {font-size: 1.3125rem;}.h1-header {font-size: 1.75rem; font-weight: bold;}.part-text{padding-top: 130px; padding-bottom: 70px;}.p-header {width: 71%;}
