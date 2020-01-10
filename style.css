@@ -29,15 +29,10 @@
 
 .pulsate-bck{animation:pulsate-bck 2s ease-in-out infinite both}
 
-/*****************************MEDIA QUERIES SOLENE******************************/
 
 
-/*************************************FIN*****************************************/
-
-.type-burger{background-image: url("images/bois-produit.jpg"); height: 100%;}
+.type-burger{background-image: url("images/bois-produit-1.jpg"); height: 100%; }
 .epais{border: solid 0.62rem white;}
-
-
 
 
   
@@ -160,6 +155,8 @@
 .fs-16px{font-size: 1rem;}
 .fs-21px{font-size: 1.3125rem;}
 .fs-25px{font-size: 1.5625rem;}
+.text-danger{color: #fd021b!important; font-size: 30px; font-weight: 900;
+}
 /**/
 .line-height{line-height: 2.5;}
 /** **/
@@ -177,7 +174,7 @@
 
 
 .section-tours{
-    background-image: url('images/bois-produit.png');
+    background-image: url('images/bois-produit.jpg');
 }
 .section-tours-title h2{
     
@@ -223,7 +220,7 @@
 }
 
 .card__side--back-1 {
-    background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+    background-color: #230000;
 }
 .card__picture{
     background-size: cover;
@@ -270,8 +267,8 @@
 }
 .card__heading-span--1{
     background-image: linear-gradient(to right bottom, 
-    rgb(255, 185, 0,.85), 
-    rgb(255, 119, 48,.85)
+    red, 
+    #230000
    );
 }
 
@@ -424,7 +421,7 @@ only screen and (hover: none) {
     display: flex;
     align-items: center;
    
-    background-image: linear-gradient(to right bottom,  rgb(255, 185, 0,.85),  rgb(255, 119, 48,.85))
+  
     
 }
 .card-rating-img{
@@ -445,7 +442,7 @@ only screen and (hover: none) {
 
 
 @media (max-width: 575.98px) { 
-    .btn-cercle{width: 13%;}.nav-item {font-size: 0.9375rem; font-weight: bold;}.h1-header {font-size: 1.5625rem; font-weight: bold;}.p-header {font-size: 1rem;}.part-text{padding-top: 1.75rem; padding-bottom: 1.75rem;}.p-header {width: 53%;}
+    .btn-cercle{width: 13%;}.nav-item {font-size: 0.9375rem; font-weight: bold;}.h1-header {font-size: 1.5625rem; font-weight: bold;}.p-header {font-size: 1rem;}.part-text{padding-top: 1.75rem; padding-bottom: 1.75rem;}.p-header {width: 53%;} .btn-effect{padding-bottom: 40px;}
     .card__details ul   li {
         font-size: 10px;
 
@@ -453,19 +450,19 @@ only screen and (hover: none) {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    .btn-cercle{width: 10%;}.nav-item {font-size: 0.9375rem; font-weight: bold; width: 15%;}.h1-header {font-size: 1.5625rem; font-weight: bold;}.p-header {font-size: 1.3125rem;}.h1-header {font-size: 1.75rem; font-weight: bold;}.part-text{padding-top: 130px; padding-bottom: 70px;}.p-header {width: 71%;}
+    .btn-cercle{width: 10%;}.nav-item {font-size: 0.9375rem; font-weight: bold; width: 15%;}.h1-header {font-size: 1.5625rem; font-weight: bold;}.p-header {font-size: 1.3125rem;}.h1-header {font-size: 1.75rem; font-weight: bold;}.part-text{padding-top: 130px; padding-bottom: 70px;}.p-header {width: 71%;} .btn-effect{padding-bottom: 65px;}
     }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    .btn-cercle{width: 10%;}.part-text{padding-top: 11.5625rem; padding-bottom: 7.1875rem;}.p-header {font-size: 1.5rem;}.p-header {width: 60%;}
+    .btn-cercle{width: 10%;}.part-text{padding-top: 11.5625rem; padding-bottom: 7.1875rem;}.p-header {font-size: 1.5rem;}.p-header {width: 60%;} .btn-effect{padding-bottom: 80px;}
     }
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-    .nav-item {font-size: 0.875rem; font-weight: bold;}.h1-header {font-size: 2.3125rem; font-weight: bold;}.p-header {font-size: 1.625rem;}.part-text{padding-top: 11.5625rem; padding-bottom: 7.1875rem;}.btn-cercle{width: 10%;}.p-header {width: 48%;}
+    .nav-item {font-size: 0.875rem; font-weight: bold;}.h1-header {font-size: 2.3125rem; font-weight: bold;}.p-header {font-size: 1.625rem;}.part-text{padding-top: 11.5625rem; padding-bottom: 7.1875rem;}.btn-cercle{width: 10%;}.p-header {width: 48%;}.btn-effect{padding-bottom: 105px;}
     }
 
 @media (min-width: 1200px) { 
-    .part-text{padding-top: 17.5625rem; padding-bottom: 10.1875rem;}.p-header {width: 48%;}
+    .part-text{padding-top: 17.5625rem; padding-bottom: 10.1875rem;}.p-header {width: 48%;} .btn-effect{padding-bottom: 105px;}
     }
 
 
