@@ -12,7 +12,7 @@
 
 /******************HEADER******************/
 
-.container-fluid-1 {background-image: url('images/img-restaurant-2.jpg');background-repeat: no-repeat; background-size: cover;background-position: center; border-top: 0.6875rem solid black;}
+.container-fluid-1 {background-image: url('images/img-restaurant-2.jpg');background-repeat: no-repeat; background-size: cover;background-position: center; border-top: 0.6875rem solid black; }
 
 
 .header-opacity {height: auto;opacity: 75%;background-color:#230000;}
@@ -165,36 +165,6 @@
 /** **/
 .img-carte{width: 367px; height: 342px;}
 /***************** **********************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -495,7 +465,7 @@ only screen and (hover: none) {
     }
 
 @media (min-width: 1200px) { 
-    .part-text{padding-top: 11.5625rem; padding-bottom: 7.1875rem;}.p-header {width: 48%;}
+    .part-text{padding-top: 17.5625rem; padding-bottom: 10.1875rem;}.p-header {width: 48%;}
     }
 
 
