@@ -8,7 +8,7 @@
  @keyframes pulsate-bck{0%{transform:scale(1)}50%{transform:scale(.9)}100%{transform:scale(1)}}
 
  
- body{margin: 0; padding: 0; font-family: Rockwell;letter-spacing: 0.0625rem; font-size: 100%;}
+ body{margin: 0; padding: 0; background-color: black; font-family: Rockwell;letter-spacing: 1px;}
 
 /******************HEADER******************/
 
@@ -31,29 +31,6 @@
 
 /*****************************MEDIA QUERIES SOLENE******************************/
 
-@media (max-width: 575.98px) { 
-    .btn-cercle{width: 13%;}.nav-item {font-size: 0.9375rem; font-weight: bold;}.h1-header {font-size: 1.5625rem; font-weight: bold;}.p-header {font-size: 1rem;}.part-text{padding-top: 1.75rem; padding-bottom: 1.75rem;}.p-header {width: 53%;}
-    .card__details ul   li {
-        font-size: 10px;
-
-    }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) { 
-    .btn-cercle{width: 10%;}.nav-item {font-size: 0.9375rem; font-weight: bold; width: 15%;}.h1-header {font-size: 1.5625rem; font-weight: bold;}.p-header {font-size: 1.3125rem;}.h1-header {font-size: 1.75rem; font-weight: bold;}.part-text{padding-top: 130px; padding-bottom: 70px;}.p-header {width: 71%;}
-    }
-
-@media (min-width: 768px) and (max-width: 991.98px) { 
-    .btn-cercle{width: 10%;}.part-text{padding-top: 11.5625rem; padding-bottom: 7.1875rem;}.p-header {font-size: 1.5rem;}.p-header {width: 60%;}
-    }
-
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    .nav-item {font-size: 0.875rem; font-weight: bold;}.h1-header {font-size: 2.3125rem; font-weight: bold;}.p-header {font-size: 1.625rem;}.part-text{padding-top: 11.5625rem; padding-bottom: 7.1875rem;}.btn-cercle{width: 10%;}.p-header {width: 48%;}
-    }
-
-@media (min-width: 1200px) { 
-    .part-text{padding-top: 11.5625rem; padding-bottom: 7.1875rem;}.p-header {width: 48%;}
-    }
 
 /*************************************FIN*****************************************/
 
@@ -62,30 +39,7 @@
 
 
 
-@media (min-width: 320px)  {
-    
-   ol.show{margin-bottom: -2rem;}
-   
-   @-webkit-keyframes flip-vertical-right {
-    0% {
-      -webkit-transform: rotateY(0);
-              transform: rotateY(0);
-    }
-    100% {
-      -webkit-transform: rotateY(180deg);
-              transform: rotateY(180deg);
-    }
-  }
-  @keyframes flip-vertical-right {
-    0% {
-      -webkit-transform: rotateY(0);
-              transform: rotateY(0);
-    }
-    100% {
-      -webkit-transform: rotateY(180deg);
-              transform: rotateY(180deg);
-    }
-  }
+
   
    .ch-grid {
     /* 	margin: 20px 0 0 0; */
@@ -148,7 +102,7 @@
       opacity: 0;
     }
     .ch-img-1 { 
-      background-image: url('images/01-burger-vegetarien-aux-courgettes_0\ \(2\).jpg');
+      background-image: url('images/01-burger-vegetarien-aux-courgettes_0.jpg');
     }
     .ch-img-2{
       background-image: url("images/burger-montagnard.jpg");
@@ -190,10 +144,10 @@
       transform: rotate3d(1,0,0,0deg);
       opacity: 1;
     }
-}
+
 
 /******** Partie marylène ***********/
-body{margin: 0; padding: 0; background-color: black; font-family: Rockwell;letter-spacing: 1px;}
+
 .contact{border-top: 2px solid white; border-bottom: 2px solid white;}
 
 /**background**/
@@ -211,45 +165,7 @@ body{margin: 0; padding: 0; background-color: black; font-family: Rockwell;lette
 /** **/
 .img-carte{width: 367px; height: 342px;}
 /***************** **********************/
-@media (max-width: 575.98px) { 
-    .menu-offre { display: none;}
-    .slider-menu{ display: block;}
-    .img-carte{ display: none;}
-    .fs-21px{font-size: 1.125rem;}
-    .fs-25px{font-size: 1.3125rem;}  
-    .facebook-img, .twitter-img, .insta-img{ width: 13%;}    
-    .contact{text-align: center; }   
- }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .bg-img-gris{ display: none;}
-    .menu-offre { display: none;}
-    .slider-menu{ display: block;}     
-    .img-carte{ width: 250px; height: 250px; margin-top: 80px; margin-left: 10px;}
-    .fs-21px{font-size: 1.25rem;}
-    .fs-25px{font-size: 1.4375rem;}
-    .facebook-img, .twitter-img, .insta-img{ width: 13%;} 
- }
-
-@media (min-width: 768px) and (max-width: 991.98px) { 
-    .bg-img-gris{ display: none;}
-    .menu-offre { display: block;} 
-    .slider-menu{ display: none;}
-    .img-carte{ width: 300px; height: 300px; margin-top: 40px; margin-left: 20px;} 
-    .facebook-img, .twitter-img, .insta-img{ width: 13%;}    
- }
-
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    .menu-offre { display: block;}
-    .slider-menu{ display: none;}
-    .facebook-img, .twitter-img, .insta-img{ width: 13%;} 
- }
-
-@media (min-width: 1200px) {
-    .slider-menu{ display: none;}
-    .menu-offre { display: block;}
-    .facebook-img, .twitter-img, .insta-img{ width: 13%;} 
- }
 
 
 
@@ -483,9 +399,7 @@ body{margin: 0; padding: 0; background-color: black; font-family: Rockwell;lette
 
     @media only screen and (max-width: 56.25em),
     only screen and (hover: none) {
-        body{
-            font-size: 40%;
-        }
+        
    .card-burger{
       font-size: .8rem;
    }
@@ -515,9 +429,6 @@ body{margin: 0; padding: 0; background-color: black; font-family: Rockwell;lette
 /* @media only screen and (max-width: 56.25em),
 only screen and (hover: none) {
    
-
-
-
 } */
 .card-des{
     position: absolute;
@@ -556,3 +467,104 @@ only screen and (hover: none) {
 
 
 
+
+
+
+
+
+
+
+@media (max-width: 575.98px) { 
+    .btn-cercle{width: 13%;}.nav-item {font-size: 0.9375rem; font-weight: bold;}.h1-header {font-size: 1.5625rem; font-weight: bold;}.p-header {font-size: 1rem;}.part-text{padding-top: 1.75rem; padding-bottom: 1.75rem;}.p-header {width: 53%;}
+    .card__details ul   li {
+        font-size: 10px;
+
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .btn-cercle{width: 10%;}.nav-item {font-size: 0.9375rem; font-weight: bold; width: 15%;}.h1-header {font-size: 1.5625rem; font-weight: bold;}.p-header {font-size: 1.3125rem;}.h1-header {font-size: 1.75rem; font-weight: bold;}.part-text{padding-top: 130px; padding-bottom: 70px;}.p-header {width: 71%;}
+    }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .btn-cercle{width: 10%;}.part-text{padding-top: 11.5625rem; padding-bottom: 7.1875rem;}.p-header {font-size: 1.5rem;}.p-header {width: 60%;}
+    }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .nav-item {font-size: 0.875rem; font-weight: bold;}.h1-header {font-size: 2.3125rem; font-weight: bold;}.p-header {font-size: 1.625rem;}.part-text{padding-top: 11.5625rem; padding-bottom: 7.1875rem;}.btn-cercle{width: 10%;}.p-header {width: 48%;}
+    }
+
+@media (min-width: 1200px) { 
+    .part-text{padding-top: 11.5625rem; padding-bottom: 7.1875rem;}.p-header {width: 48%;}
+    }
+
+
+
+    @media (max-width: 575.98px) { 
+        .menu-offre { display: none;}
+        .slider-menu{ display: block;}
+        .img-carte{ display: none;}
+        .fs-21px{font-size: 1.125rem;}
+        .fs-25px{font-size: 1.3125rem;}  
+        .facebook-img, .twitter-img, .insta-img{ width: 13%;}    
+        .contact{text-align: center; }   
+     }
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .bg-img-gris{ display: none;}
+        .menu-offre { display: none;}
+        .slider-menu{ display: block;}     
+        .img-carte{ width: 250px; height: 250px; margin-top: 80px; margin-left: 10px;}
+        .fs-21px{font-size: 1.25rem;}
+        .fs-25px{font-size: 1.4375rem;}
+        .facebook-img, .twitter-img, .insta-img{ width: 13%;} 
+     }
+    
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+        .bg-img-gris{ display: none;}
+        .menu-offre { display: block;} 
+        .slider-menu{ display: none;}
+        .img-carte{ width: 300px; height: 300px; margin-top: 40px; margin-left: 20px;} 
+        .facebook-img, .twitter-img, .insta-img{ width: 13%;}    
+     }
+    
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+        .menu-offre { display: block;}
+        .slider-menu{ display: none;}
+        .facebook-img, .twitter-img, .insta-img{ width: 13%;} 
+     }
+    
+    @media (min-width: 1200px) {
+        .slider-menu{ display: none;}
+        .menu-offre { display: block;}
+        .facebook-img, .twitter-img, .insta-img{ width: 13%;} 
+     }
+
+
+
+
+     @media (min-width: 320px)  {
+    
+        ol.show{margin-bottom: -2rem;}
+        
+        @-webkit-keyframes flip-vertical-right {
+         0% {
+           -webkit-transform: rotateY(0);
+                   transform: rotateY(0);
+         }
+         100% {
+           -webkit-transform: rotateY(180deg);
+                   transform: rotateY(180deg);
+         }
+       }
+       @keyframes flip-vertical-right {
+         0% {
+           -webkit-transform: rotateY(0);
+                   transform: rotateY(0);
+         }
+         100% {
+           -webkit-transform: rotateY(180deg);
+                   transform: rotateY(180deg);
+         }
+       }
+    }
