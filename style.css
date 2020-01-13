@@ -256,7 +256,6 @@
     position: absolute;
     top: 12rem;
     right: 0rem;
-    width: 100%;
     line-height: 2.3rem;
 
 }
@@ -436,7 +435,8 @@ only screen and (hover: none) {
     .btn-cercle{width: 13%;}.nav-item {font-size: 0.9375rem; font-weight: bold;}.h1-header {font-size: 1.5625rem; font-weight: bold;}.p-header {font-size: 1rem;}.part-text {
         padding-top: 5.75rem;
         padding-bottom: 4.75rem;
-    }.p-header {width: 53%;} .btn-effect{padding-bottom: 40px;}
+    }
+    .p-header {width: 53%;} .btn-effect{padding-bottom: 40px;}
     .card__details ul   li {
         font-size: 10px;
     }
@@ -463,8 +463,11 @@ only screen and (hover: none) {
         width: 8%;
         margin: .3rem;
     }
-
-
+    .card__heading {
+        font-size: 19px;
+        top: 12rem;
+        width: 100%;
+    }
 }
 
 
@@ -474,7 +477,9 @@ only screen and (hover: none) {
         width: 11%;
         margin: .3rem;
     }
-
+    .card__heading {
+        width: 102%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
@@ -483,6 +488,9 @@ only screen and (hover: none) {
         width: 11%;
         margin: .3rem;
     }
+    .card__heading {
+        width: 100%;
+    }
 }
 
 @media (min-width: 1200px) { 
@@ -490,6 +498,9 @@ only screen and (hover: none) {
     .card-rating-img {
         width: 11%;
         margin: .3rem;
+    }
+    .card__heading {
+        width: 100%;
     }
 }
 
